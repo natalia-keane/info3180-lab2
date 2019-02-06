@@ -2,15 +2,21 @@ body {
     padding-top: 5rem;
 }
 .main{
-  border-radius: 10px;
+  width: 50%;
+  height: 50%;
+
 }
 #tops{
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
   padding-top: 3rem;
 
   background-color: purple;
 }
 #bots{
-  background-color: yellow;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: palegreen;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -26,9 +32,11 @@ img{
 }
 p,h1{
   text-align: center;
+  margin: 0px;
 }
 button{
-
+padding: 10px;
+background-color: purple;
   align-items: center;
 border-radius: 8px;
   font-weight: bold;
@@ -40,6 +48,7 @@ border-radius: 8px;
 .pts, .foln, .folw{
   text-align: center;
   font-weight: bold;
+  padding-top: 2rem;
 padding-bottom: 2rem;
   margin-right: 15px;
 }

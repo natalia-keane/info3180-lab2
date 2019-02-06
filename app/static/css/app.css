@@ -1,3 +1,45 @@
 body {
     padding-top: 5rem;
 }
+.main{
+  border-radius: 10px;
+}
+#tops{
+  padding-top: 3rem;
+
+  background-color: purple;
+}
+#bots{
+  background-color: yellow;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  border-radius: 50%;
+
+}
+p,h1{
+  text-align: center;
+}
+button{
+
+  align-items: center;
+border-radius: 8px;
+  font-weight: bold;
+}
+#goals{
+  display: flex;
+  border-bottom: 1rem;
+}
+.pts, .foln, .folw{
+  text-align: center;
+  font-weight: bold;
+padding-bottom: 2rem;
+  margin-right: 15px;
+}

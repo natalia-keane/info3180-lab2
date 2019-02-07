@@ -2,21 +2,23 @@ body {
     padding-top: 5rem;
 }
 .main{
-  width: 50%;
+  width: 70%;
   height: 50%;
 
 }
 #tops{
-border-top-left-radius: 10px;
-border-top-right-radius: 10px;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
   padding-top: 3rem;
+font-size: small;
 
-  background-color: purple;
+  background-color: lavender;
 }
 #bots{
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  background-color: palegreen;
+
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: LIGHTblue;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -35,10 +37,11 @@ p,h1{
   margin: 0px;
 }
 button{
-padding: 10px;
-background-color: purple;
+
+  width: 160px;
+  height:35px;
   align-items: center;
-border-radius: 8px;
+  border-radius: 8px;
   font-weight: bold;
 }
 #goals{
